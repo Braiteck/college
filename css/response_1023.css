@@ -279,6 +279,23 @@
     }
 
 
+    header .departments > *
+    {
+        margin: 0;
+    }
+
+    header .departments > * + *
+    {
+        margin-left: 30px;
+    }
+
+
+    header .search
+    {
+        display: none;
+    }
+
+
     header .program_link
     {
         width: 100%;
@@ -355,6 +372,11 @@
     header .contacts > *
     {
         margin-top: 0;
+    }
+
+    .mob_header .contacts .phone a
+    {
+        font-size: 17px;
     }
 
     header .contacts .email

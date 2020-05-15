@@ -1,8 +1,8 @@
 @media (max-width: 1319px)
 {
     /*---------------
-	    Main styles
-	---------------*/
+        Main styles
+    ---------------*/
     .content_flex .content
     {
         width: calc(100% - var(--aside_width) - 50px);
@@ -40,8 +40,14 @@
 
 
     /*---------------
-		Header
-	---------------*/
+        Header
+    ---------------*/
+    #search_modal
+    {
+        width: 280px;
+    }
+
+
     header .menu
     {
         width: calc(100% + 20px);
@@ -51,8 +57,8 @@
 
 
     /*---------------
-		Sidebar
-	---------------*/
+        Sidebar
+    ---------------*/
     aside .links > * + *
     {
         margin-top: 15px;
@@ -61,8 +67,8 @@
 
 
     /*---------------
-		Main section
-	---------------*/
+        Main section
+    ---------------*/
     .programs .flex
     {
         margin-bottom: -20px;
@@ -319,8 +325,8 @@
 
 
     /*---------------
-		Footer
-	---------------*/
+        Footer
+    ---------------*/
     footer .contacts .item
     {
         padding: 20px 25px;
@@ -329,6 +335,6 @@
 
 
     /*---------------
-		PopUp
-	---------------*/
+        PopUp
+    ---------------*/
 }

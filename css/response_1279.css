@@ -152,6 +152,12 @@
     }
 
 
+    header .departments > * + *
+    {
+        margin-left: 20px;
+    }
+
+
     header .location
     {
         display: none;
@@ -163,17 +169,11 @@
         padding: 0 20px;
     }
 
-    header .menu .item:first-child
-    {
-        display: none;
-    }
-
     header .menu .item > a
     {
         font-size: 12px;
         line-height: 16px;
 
-        min-height: 42px;
         padding: 0;
     }
 

@@ -1263,6 +1263,7 @@ header
     left: 0;
 
     width: 100%;
+
     pointer-events: none;
 }
 
@@ -1341,8 +1342,9 @@ header .col_left
     width: 270px;
     padding: 15px 0;
 
-    background: #fff;
     pointer-events: auto;
+
+    background: #fff;
 }
 
 header .col_left:before
@@ -1368,8 +1370,9 @@ header .col_right
 
     width: calc(100% - 270px);
 
-    background: #84c152;
     pointer-events: auto;
+
+    background: #84c152;
 }
 
 header .col_right:before
@@ -1481,39 +1484,7 @@ header .visually_impaired img
 
 
 
-header .department
-{
-    position: absolute;
-    top: 72px;
-    right: 15px;
-
-    display: flex;
-
-    height: 49px;
-
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
-header .department img
-{
-    display: block;
-
-    max-width: 100%;
-    max-height: 100%;
-}
-
-
-
-header .search
-{
-    width: 280px;
-    max-width: 100%;
-}
-
-header .search form
+header .departments
 {
     display: flex;
 
@@ -1523,24 +1494,94 @@ header .search form
     flex-wrap: wrap;
 }
 
-header .search form ::-webkit-input-placeholder
+header .departments > *
 {
-    color: #fff;
+    margin: 0 10px;
 }
 
-header .search form :-moz-placeholder
+header .departments > * + *
 {
-    color: #fff;
+    margin-left: 30px;
 }
 
-header .search form :-ms-input-placeholder
+header .departments a,
+header .departments img
 {
-    color: #fff;
+    display: block;
+
+    max-height: 43px;
 }
 
-header .search .input
+
+
+header .search .link
 {
-    color: #fff;
+    display: flex;
+
+    width: 47px;
+    height: 43px;
+
+    cursor: pointer;
+
+    border: none;
+    background: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+header .search .link img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+#search_modal
+{
+    top: 0;
+    right: 0;
+    left: auto;
+
+    width: 290px;
+
+    border-radius: 22px;
+    background: #fff;
+    box-shadow: 0 1px 16px 0 rgba(0, 0, 0, .36);
+}
+
+#search_modal form
+{
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#search_modal form ::-webkit-input-placeholder
+{
+    color: #191919;
+}
+
+#search_modal form :-moz-placeholder
+{
+    color: #191919;
+}
+
+#search_modal form :-ms-input-placeholder
+{
+    color: #191919;
+}
+
+#search_modal .input
+{
+    color: #191919;
     font-family: var(--font_family2);
     font-size: 12px;
     font-weight: 500;
@@ -1551,12 +1592,14 @@ header .search .input
     height: 43px;
     padding: 0 47px 0 25px;
 
+    text-transform: uppercase;
+
     border: none;
     border-radius: 22px;
-    background: rgba(255,255,255,.2);
+    background: none;
 }
 
-header .search .submit_btn
+#search_modal .submit_btn
 {
     position: relative;
 
@@ -1577,7 +1620,7 @@ header .search .submit_btn
     flex-wrap: wrap;
 }
 
-header .search .submit_btn img
+#search_modal .submit_btn img
 {
     display: block;
 
@@ -1623,6 +1666,7 @@ header .program_link img
 header .location
 {
     color: #fff;
+    font-family: var(--font_family2);
 
     position: relative;
 }
@@ -1823,7 +1867,7 @@ header .menu .item > a
 
     display: flex;
 
-    min-height: 49px;
+    min-height: 50px;
     padding: 0 20px;
 
     transition: .2s linear;
@@ -1869,13 +1913,20 @@ header .menu .item > a.active:before
 }
 
 
+header .menu .item_burger
+{
+    position: absolute;
+    top: 0;
+    right: 100%;
+}
+
 header .menu .item .burger
 {
     display: flex;
 
     width: 41px;
-    height: 49px;
-    margin-left: 10px;
+    height: 50px;
+    margin-right: 5px;
     padding: 10px;
 
     justify-content: center;
@@ -2331,7 +2382,7 @@ header.fixed .info,
 header.fixed .logo img,
 header.fixed .langs,
 header.fixed .visually_impaired,
-header.fixed .department
+header.fixed .departments
 {
     display: none;
 }
