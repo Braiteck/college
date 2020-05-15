@@ -1,0 +1,645 @@
+@media (max-width: 767px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 26px;
+    }
+
+
+    .main
+    {
+        padding-top: 62px;
+    }
+
+
+    .page_head
+    {
+        margin-bottom: 25px;
+    }
+
+
+    .breadcrumbs .sep
+    {
+        margin: 0 8px;
+    }
+
+
+    .page_title
+    {
+        font-size: 26px;
+        line-height: 30px;
+
+        margin-top: 25px;
+    }
+
+    .page_desc
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        margin-top: 15px;
+    }
+
+
+
+    .block_head
+    {
+        margin-bottom: 25px;
+    }
+
+    .block_head .title
+    {
+        line-height: 30px;
+    }
+
+
+
+    .form .line
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    .text_block .cols .col
+    {
+        width: 100%;
+    }
+
+    .text_block .cols .col + .col
+    {
+        margin-top: 40px;
+    }
+
+
+    .text_block blockquote,
+    .text_block q
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        padding: 20px 25px;
+    }
+
+    .text_block blockquote.with_foto .foto,
+    .text_block q.with_foto .foto
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+    .text_block blockquote.with_foto .foto + div,
+    .text_block q.with_foto .foto + div
+    {
+        width: calc(100% - 100px);
+    }
+
+
+    .text_block .table_wrap
+    {
+        padding-bottom: 0;
+    }
+
+    .text_block .table_wrap::-webkit-scrollbar
+    {
+        width: 7px;
+        height: 10px;
+
+        border-radius: 0;
+        background-color: #eee;
+
+        -webkit-appearance: none;
+    }
+
+    .text_block .table_wrap::-webkit-scrollbar-thumb
+    {
+        border-radius: 0;
+        background-color: #84cc87;
+    }
+
+    .text_block table
+    {
+        width: 728px;
+    }
+
+
+    .text_block .video_link:before
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .text_block .video_link:after
+    {
+        left: 14px;
+
+        width: 42px;
+        height: 42px;
+
+        border-top-width: 21px;
+        border-bottom-width: 21px;
+        border-left-width: 42px;
+    }
+
+
+    .text_block .owl-dots
+    {
+        display: none;
+    }
+
+    .text_block .owl-carousel .owl-nav button:after
+    {
+        left: 0;
+    }
+
+    .text_block .owl-carousel .owl-nav button.owl-next:after
+    {
+        right: 0;
+    }
+
+
+
+    .tabs button
+    {
+        width: 100%;
+    }
+
+    .tabs button + button
+    {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    .mob_header
+    {
+        padding: 10px 0;
+    }
+
+    .mob_header .program_link,
+    .mob_header .contacts
+    {
+        display: none;
+    }
+
+
+    #mob_search_modal form .input
+    {
+        font-size: 14px;
+
+        height: 44px;
+        padding-left: 20px;
+    }
+
+    #mob_search_modal form .submit_btn
+    {
+        height: 44px;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .diplom .order,
+    .diplom .data
+    {
+        width: 100%;
+    }
+
+
+
+    .programs .flex > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .programs .item .info
+    {
+        padding: 15px;
+    }
+
+    .programs .item .name
+    {
+        font-size: 19px;
+    }
+
+    .programs .item .info > * + *
+    {
+        margin-top: 10px;
+    }
+
+
+
+    .specialty .head .info
+    {
+        max-width: 100%;
+        padding: 40px 0;
+    }
+
+    .specialty .head .info .title
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .specialty .head .info .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    .specialty .head .order
+    {
+        width: calc(100% + 40px);
+        max-width: calc(100% + 40px);
+        height: auto;
+        margin: 0 -20px;
+        padding: 40px 60px;
+    }
+
+
+
+    .partners .flex > *
+    {
+        width: calc(25% - 20px);
+    }
+
+    .partners .item
+    {
+        height: 76px;
+    }
+
+
+
+    .education .flex > *
+    {
+        width: calc(50% - 20px);
+    }
+
+    .education .item
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .education .item .icon
+    {
+        height: 55px;
+        margin-bottom: 15px;
+    }
+
+
+    .education .links .flex > *
+    {
+        width: calc(50% + 1px);
+    }
+
+    .education .links .link
+    {
+        height: 110px;
+    }
+
+
+
+    .contacts_info .data
+    {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+    .contacts_info .big_boss .foto
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .contacts_info .big_boss .foto + .info
+    {
+        width: calc(100% - 120px);
+    }
+
+    .contacts_info .big_boss .time
+    {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+
+
+    .buildings .item
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .buildings .item .boss .name
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    .articles .cats a
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .articles .cats a + a
+    {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+
+    .articles .flex > *
+    {
+        width: calc(50% - 15px);
+    }
+
+
+    .articles .article.big
+    {
+        width: calc(100% - 15px);
+    }
+
+    .articles .article.big .thumb
+    {
+        position: relative;
+
+        height: auto;
+        padding-bottom: 67.5%;
+    }
+
+    .articles .article.big .info
+    {
+        width: 100%;
+    }
+
+
+
+    .about .slider
+    {
+        width: calc(100% - 70px);
+    }
+
+    .about .slider .img
+    {
+        padding-bottom: 60%;
+    }
+
+    .about .owl-carousel .owl-nav button:after
+    {
+        left: 13px;
+
+        width: 25px;
+        height: 25px;
+    }
+
+    .about .owl-carousel .owl-nav button.owl-prev
+    {
+        left: 0;
+    }
+
+    .about .owl-carousel .owl-nav button.owl-next:after
+    {
+        left: -13px;
+    }
+
+    .about .owl-carousel .owl-nav button.owl-next
+    {
+        left: calc(100vw - 55px - var(--scroll_width));
+    }
+
+
+    .about .divicions .block_title
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .about .divicions .item
+    {
+        line-height: 20px;
+
+        padding: 15px 20px;
+    }
+
+    .about .divicions .item .link
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        margin-top: 10px;
+    }
+
+
+
+    .main_slider .order
+    {
+        display: none;
+    }
+
+
+    .main_slider .slide .cont
+    {
+        min-height: 500px;
+        padding-top: 50px;
+        padding-bottom: 228px;
+
+        align-items: center;
+        align-content: center;
+    }
+
+    .main_slider .slide:before
+    {
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        left: 0;
+
+        display: block;
+
+        width: 100%;
+        height: 100%;
+
+        content: '';
+        pointer-events: none;
+
+        background: rgba(0,0,0,.4);
+    }
+
+    .main_slider .slide .info
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .main_slider .slide .title
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .main_slider .slide .title span
+    {
+        font-size: 30px;
+    }
+
+
+    .main_slider .advantages
+    {
+        font-size: 12px;
+    }
+
+
+    .main_slider .owl-dots
+    {
+        bottom: 178px;
+    }
+
+
+
+    .stats .data .flex > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+
+    .form_training .item .name
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .form_training .item .desc
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        margin-top: 15px;
+    }
+
+
+
+    .employment .flex
+    {
+        margin-bottom: -30px;
+        margin-left: -20px;
+    }
+
+    .employment .flex > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
+    .employment .item .logo
+    {
+        height: 70px;
+    }
+
+    .employment .item .name
+    {
+        font-size: 17px;
+    }
+
+
+
+    .young_profi .world_skills
+    {
+        padding: 25px;
+    }
+
+    .young_profi .world_skills .logo + .info
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .young_profi .world_skills .title
+    {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .young_profi .data .sub_title
+    {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+
+
+    .subscribe .title
+    {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+
+        text-align: center;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .bottom .cont.flex
+    {
+        flex-wrap: wrap;
+    }
+
+
+    footer .contacts .item
+    {
+        width: calc(50% - 3px);
+    }
+
+
+    footer .copyright
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    footer .creator
+    {
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}

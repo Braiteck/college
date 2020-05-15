@@ -1,0 +1,593 @@
+@media (max-width: 479px)
+{
+    /*---------------
+	    Main styles
+	---------------*/
+    .page_head
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .breadcrumbs
+    {
+        font-size: 11px;
+    }
+
+    .breadcrumbs .sep
+    {
+        margin: 0 5px;
+    }
+
+
+    .page_title
+    {
+        font-size: 24px;
+        line-height: 28px;
+
+        margin-top: 20px;
+    }
+
+
+
+    .block
+    {
+        margin-bottom: 50px;
+    }
+
+
+    .block_head
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    .text_block .big
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .text_block h2
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .text_block h3
+    {
+        font-size: 21px;
+        line-height: 25px;
+
+        margin-bottom: 15px;
+    }
+
+
+    .text_block blockquote,
+    .text_block q
+    {
+        font-size: 17px;
+        line-height: 25px;
+
+        padding: 20px;
+    }
+
+    .text_block blockquote .author,
+    .text_block q .author
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        margin-top: 15px;
+    }
+
+
+    .text_block blockquote.with_foto .foto,
+    .text_block q.with_foto .foto
+    {
+        width: 110px;
+        height: 110px;
+        margin-bottom: 15px;
+    }
+
+    .text_block blockquote.with_foto .foto + div,
+    .text_block q.with_foto .foto + div
+    {
+        width: 100%;
+    }
+
+
+    .text_block .video_link:before
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+    .text_block .video_link:after
+    {
+        left: 10px;
+
+        width: 32px;
+        height: 32px;
+
+        border-top-width: 16px;
+        border-bottom-width: 16px;
+        border-left-width: 32px;
+    }
+
+
+
+    /*---------------
+		Header
+	---------------*/
+    .mob_header .search
+    {
+        margin-left: 7px;
+    }
+
+    .mob_header .langs,
+    .mob_header .visually_impaired
+    {
+        margin-left: 17px;
+    }
+
+
+    .mob_header .mob_menu_link
+    {
+        width: 45px;
+        margin-left: 2px;
+    }
+
+
+
+    /*---------------
+		Sidebar
+	---------------*/
+    aside .articles .list
+    {
+        margin-bottom: 0;
+
+        column-gap: 0;
+        column-count: 1;
+    }
+
+
+
+    aside .links
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+
+
+    /*---------------
+		Main section
+	---------------*/
+    .diplom .order .form .title,
+    .diplom .data .title
+    {
+        font-size: 21px;
+        line-height: 25px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .diplom .order .success
+    {
+        line-height: 22px;
+    }
+
+    .diplom .order .success .title
+    {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+
+    .diplom .data .name
+    {
+        line-height: 20px;
+    }
+
+
+
+    .programs .flex > *
+    {
+        width: calc(100% - 20px);
+    }
+
+    .programs .item .info
+    {
+        padding: 15px 20px;
+    }
+
+
+
+    .specialty .head .info .title
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .specialty .head .info .desc
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+
+    .specialty .head .order
+    {
+        padding: 40px 20px;
+    }
+
+    .specialty .head .order .form .title
+    {
+        font-size: 19px;
+        line-height: 23px;
+
+        margin-bottom: 20px;
+    }
+
+    .specialty .head .order .form .title span
+    {
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+
+    .specialty .bottom .download a
+    {
+        width: 100%;
+        padding: 12px 30px;
+    }
+
+
+
+    .partners .flex
+    {
+        margin-bottom: -15px;
+        margin-left: -15px;
+    }
+
+    .partners .flex > *
+    {
+        width: calc(33.333% - 15px);
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+    .partners .item
+    {
+        height: 66px;
+    }
+
+
+
+    .education .flex > *
+    {
+        width: calc(100% - 20px);
+    }
+
+    .education .item
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+    .education .links .link
+    {
+        height: 90px;
+        padding: 12px;
+    }
+
+
+
+    .contacts_info .data
+    {
+        line-height: 22px;
+    }
+
+    .contacts_info .data .item + .item
+    {
+        margin-top: 20px;
+    }
+
+
+
+    .contacts_info .big_boss
+    {
+        padding: 15px;
+    }
+
+    .contacts_info .big_boss .foto
+    {
+        width: 90px;
+        height: 90px;
+    }
+
+    .contacts_info .big_boss .foto + .info
+    {
+        width: calc(100% - 105px);
+    }
+
+    .contacts_info .big_boss .post
+    {
+        line-height: 20px;
+    }
+
+    .contacts_info .big_boss .name
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        margin-top: 5px;
+    }
+
+
+
+    .buildings .item
+    {
+        line-height: 20px;
+    }
+
+    .buildings .item > .name
+    {
+        margin-bottom: 10px;
+    }
+
+    .buildings .item .boss .foto
+    {
+        width: 70px;
+        height: 70px;
+    }
+
+    .buildings .item .boss .foto + .info
+    {
+        width: calc(100% - 85px);
+    }
+
+    .buildings .item .boss .post
+    {
+        line-height: 17px;
+    }
+
+    .buildings .item .boss .name
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        margin-top: 5px;
+    }
+
+
+
+    .contacts_info .map_wrap
+    {
+        padding-bottom: 360px;
+    }
+
+
+
+    .articles .flex
+    {
+        margin-bottom: -20px;
+    }
+
+    .articles .flex > *
+    {
+        width: calc(100% - 15px);
+        margin-bottom: 20px;
+    }
+
+
+    .articles .article.big .info
+    {
+        padding: 15px;
+    }
+
+
+
+    .main_slider .slide .cont
+    {
+        padding-bottom: 320px;
+    }
+
+    .main_slider .slide .title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .main_slider .slide .title span
+    {
+        font-size: 28px;
+    }
+
+    .main_slider .slide .info
+    {
+        line-height: 20px;
+    }
+
+
+    .main_slider .owl-dots
+    {
+        bottom: 270px;
+    }
+
+
+    .main_slider .advantages .item
+    {
+        text-align: center;
+
+        flex-wrap: wrap;
+    }
+
+    .main_slider .advantages .icon
+    {
+        display: flex;
+
+        width: 100%;
+        height: 45px;
+        margin: 0 0 10px;
+
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .main_slider .advantages .item .name
+    {
+        width: 100%;
+    }
+
+    .main_slider .advantages .item br
+    {
+        display: none;
+    }
+
+
+
+    .stats .data .flex > *
+    {
+        width: calc(50% - 20px);
+    }
+
+    .stats .item .val
+    {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+
+
+    .form_training .item
+    {
+        padding: 20px;
+    }
+
+
+
+    .employment .flex
+    {
+        padding-top: 15px;
+    }
+
+    .employment .flex > *
+    {
+        width: calc(100% - 20px);
+    }
+
+    .employment .item .logo
+    {
+        height: auto;
+    }
+
+
+
+    .young_profi:before
+    {
+        opacity: .8;
+    }
+
+    .young_profi .world_skills
+    {
+        padding: 20px;
+    }
+
+    .young_profi .world_skills .title
+    {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .young_profi .world_skills .desc
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        margin-top: 10px;
+    }
+
+
+    .young_profi .data .title
+    {
+        line-height: 30px;
+    }
+
+    .young_profi .data .sub_title
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .young_profi .data .desc
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .young_profi .data .link
+    {
+        margin-top: 25px;
+    }
+
+
+
+    .subscribe .form .input
+    {
+        width: 100%;
+        margin-bottom: 10px;
+
+        text-align: center;
+    }
+
+    .subscribe .form .submit_btn
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    .share .name
+    {
+        width: 100%;
+        margin: 0 0 10px;
+
+        text-align: center;
+    }
+
+
+
+    .load_more
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*---------------
+		Footer
+	---------------*/
+    footer .contacts .item
+    {
+        width: calc(100% - 3px);
+    }
+
+    footer .contacts .item .adres br
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+		PopUp
+	---------------*/
+}

@@ -1,0 +1,334 @@
+@media (max-width: 1319px)
+{
+    /*---------------
+	    Main styles
+	---------------*/
+    .content_flex .content
+    {
+        width: calc(100% - var(--aside_width) - 50px);
+    }
+
+
+
+    .page_title
+    {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .page_desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+
+    .block_head
+    {
+        margin-bottom: 25px;
+    }
+
+
+
+    .text_block .big
+    {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+
+
+    /*---------------
+		Header
+	---------------*/
+    header .menu
+    {
+        width: calc(100% + 20px);
+        margin-right: -20px;
+    }
+
+
+
+    /*---------------
+		Sidebar
+	---------------*/
+    aside .links > * + *
+    {
+        margin-top: 15px;
+    }
+
+
+
+    /*---------------
+		Main section
+	---------------*/
+    .programs .flex
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .programs .flex > *
+    {
+        width: calc(25% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .programs .item
+    {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .programs .item .info
+    {
+        padding: 20px;
+    }
+
+    .programs .item .name
+    {
+        font-size: 22px;
+    }
+
+
+
+    .specialty .head .info .title
+    {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .specialty .head .info .desc
+    {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+
+
+    .education .flex
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .education .flex > *
+    {
+        width: calc(25% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .education .item
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        padding: 40px 20px 20px;
+    }
+
+    .education .item .icon
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    .contacts_info .data
+    {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    .contacts_info .big_boss
+    {
+        padding: 30px;
+    }
+
+    .contacts_info .big_boss .foto + .info
+    {
+        width: calc(100% - 170px);
+    }
+
+
+    .buildings .block_title
+    {
+        margin-bottom: 25px;
+    }
+
+
+    .buildings .flex
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .buildings .flex > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .buildings .item
+    {
+        font-size: 16px;
+        line-height: 26px;
+
+        padding: 25px 30px 30px;
+    }
+
+    .buildings .item .boss
+    {
+        line-height: 20px;
+
+        margin-top: 25px;
+    }
+
+    .buildings .item .boss .foto + .info
+    {
+        width: calc(100% - 125px);
+    }
+
+
+
+    .articles .cats
+    {
+        bottom: calc(100% + 44px);
+    }
+
+    .articles .cats a
+    {
+        padding: 8px 20px;
+    }
+
+    .articles .cats a + a
+    {
+        margin-left: 10px;
+    }
+
+
+    .articles .article .info
+    {
+        padding: 20px;
+    }
+
+    .articles .article .date
+    {
+        left: 20px;
+    }
+
+
+    .articles .article.big .info
+    {
+        padding: 22px 25px;
+    }
+
+
+
+    .about
+    {
+        --aside_width: 260px;
+    }
+
+    .about .content_flex .content
+    {
+        width: calc(100% - var(--aside_width) - 30px);
+    }
+
+    .about .page_title
+    {
+        padding-left: calc(var(--aside_width) + 30px);
+    }
+
+
+
+    .main_slider .order
+    {
+        left: 60px;
+
+        width: 290px;
+        margin-left: 0;
+    }
+
+    .main_slider .slide .title
+    {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .main_slider .slide .title span
+    {
+        font-size: 36px;
+    }
+
+
+    .main_slider .owl-dots
+    {
+        right: 20px;
+
+        margin-right: 0;
+    }
+
+
+
+    .form_training .flex
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+    .form_training .flex > *
+    {
+        width: calc(33.333% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+    .form_training .item
+    {
+        padding: 30px;
+    }
+
+    .form_training .item .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+
+    .employment .item
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+
+    .young_profi .world_skills
+    {
+        padding: 35px;
+    }
+
+
+
+    /*---------------
+		Footer
+	---------------*/
+    footer .contacts .item
+    {
+        padding: 20px 25px;
+    }
+
+
+
+    /*---------------
+		PopUp
+	---------------*/
+}
