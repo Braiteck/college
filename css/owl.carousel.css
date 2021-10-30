@@ -392,6 +392,32 @@
 }
 
 
+.partners .owl-carousel .owl-nav button.owl-prev
+{
+    left: -12px;
+}
+
+.partners .owl-carousel .owl-nav button.owl-next
+{
+    right: -12px;
+}
+
+.partners .owl-carousel .owl-nav button:after
+{
+    left: 14px;
+
+    width: 28px;
+    height: 28px;
+
+    border-color: #6bbf70;
+}
+
+.partners .owl-carousel .owl-nav button.owl-next:after
+{
+    left: -14px;
+}
+
+
 
 .owl-dots
 {

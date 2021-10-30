@@ -189,6 +189,31 @@
     }
 
 
+    header .mob_scroll > *.top
+    {
+        padding: 16px 0;
+    }
+
+
+    header .departments
+    {
+        display: none;
+    }
+
+
+    header .visually_impaired
+    {
+        width: 100%;
+        margin-bottom: 12px;
+        padding: 0;
+    }
+
+    header .visually_impaired img
+    {
+        width: 22px;
+    }
+
+
     header .col_left
     {
         display: none;
@@ -279,109 +304,35 @@
     }
 
 
-    header .departments > *
-    {
-        margin: 0;
-    }
-
-    header .departments > * + *
-    {
-        margin-left: 30px;
-    }
-
-
     header .search
     {
         display: none;
     }
 
 
-    header .program_link
+    header .slogan
     {
+        font-size: 15px;
+        line-height: 21px;
+
         width: 100%;
-        margin-top: 15px;
     }
-
-    header .program_link br
-    {
-        display: none;
-    }
-
 
     header .location
     {
         display: block;
 
         width: 100%;
-        margin-top: 15px;
+        margin-top: 20px;
+        padding-left: 31px;
+
+        background-position: 3px 0;
     }
-
-    header .location .city
-    {
-        font-size: 17px;
-        font-weight: 500;
-    }
-
-
-    header .location.open .city
-    {
-        color: #fff;
-
-        background: url(../images/ic_location.svg) 0 3px no-repeat;
-    }
-
-    header .location.open .other_link
-    {
-        pointer-events: auto;
-
-        opacity: 1;
-    }
-
-
-    header .location .dropdown
-    {
-        position: relative;
-        top: 0;
-        left: 0;
-
-        display: none;
-
-        width: 100%;
-        min-width: 100%;
-        margin-top: 10px;
-        padding: 15px 20px;
-    }
-
-    header .location .dropdown:after
-    {
-        display: none;
-    }
-
-    header .location .dropdown.active
-    {
-        display: block;
-    }
-
 
     header .contacts
     {
         width: 100%;
         margin-top: 15px;
-    }
-
-    header .contacts > *
-    {
-        margin-top: 0;
-    }
-
-    .mob_header .contacts .phone a
-    {
-        font-size: 17px;
-    }
-
-    header .contacts .email
-    {
-        margin-top: 5px;
     }
 
 
@@ -798,6 +749,13 @@
         bottom: 160px;
 
         width: 100%;
+    }
+
+
+
+    .first_section
+    {
+        padding-top: 20px;
     }
 
 

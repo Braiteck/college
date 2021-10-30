@@ -126,8 +126,7 @@
         margin-left: 7px;
     }
 
-    .mob_header .langs,
-    .mob_header .visually_impaired
+    .mob_header .langs
     {
         margin-left: 17px;
     }
@@ -449,6 +448,24 @@
     .main_slider .advantages .item br
     {
         display: none;
+    }
+
+
+
+    .first_section .welcome
+    {
+        padding: 18px;
+    }
+
+    .first_section .welcome .title
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .first_section .welcome .btns .btn
+    {
+        width: calc(100% - 12px);
     }
 
 

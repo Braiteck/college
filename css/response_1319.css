@@ -48,6 +48,17 @@
     }
 
 
+    header .col_left
+    {
+        width: 240px;
+    }
+
+    header .col_right
+    {
+        width: calc(100% - 240px);
+    }
+
+
     header .menu
     {
         width: calc(100% + 20px);
@@ -279,6 +290,46 @@
         right: 20px;
 
         margin-right: 0;
+    }
+
+
+
+    .first_section
+    {
+        padding-top: 12px;
+    }
+
+
+    .first_section .welcome
+    {
+        width: calc(100% - 598px);
+        min-height: 417px;
+    }
+
+    .first_section .welcome .author
+    {
+        margin-top: 32px;
+    }
+
+    .first_section .welcome .btns
+    {
+        margin-top: 52px;
+    }
+
+
+    .first_section .slider
+    {
+        width: 540px;
+    }
+
+    .first_section .slider .owl-dots
+    {
+        left: -38px;
+    }
+
+    .first_section .slider .slide
+    {
+        height: 417px;
     }
 
 

@@ -229,6 +229,25 @@
     }
 
 
+    .programs .slider
+    {
+        padding-bottom: 28px;
+    }
+
+    .programs .owl-dots
+    {
+        height: 12px;
+    }
+
+    .programs .slider .owl-dot,
+    .programs .slider .owl-dot:hover,
+    .programs .slider .owl-dot.active
+    {
+        width: 12px;
+        height: 12px;
+    }
+
+
     .programs .item .info
     {
         padding: 15px;
@@ -518,6 +537,85 @@
     .main_slider .owl-dots
     {
         bottom: 178px;
+    }
+
+
+
+    .first_section .welcome .photo
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .first_section .welcome .info
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .first_section .welcome .author
+    {
+        margin-top: 24px;
+
+        text-align: center;
+    }
+
+    .first_section .welcome .btns
+    {
+        width: calc(100% + 12px);
+        margin-top: 24px;
+        margin-left: -12px;
+    }
+
+    .first_section .welcome .btns .btn
+    {
+        min-width: 181px;
+        margin-left: 12px;
+        padding: 0 24px;
+    }
+
+
+
+    .first_section .slider .slide
+    {
+        height: auto;
+    }
+
+    .first_section .slider .slide img
+    {
+        position: relative;
+
+        width: 100%;
+        height: auto;
+    }
+
+
+    .first_section .slider .owl-dots
+    {
+        top: auto;
+        bottom: -28px;
+        left: 0;
+
+        width: 100%;
+        height: 12px;
+
+        justify-content: center;
+    }
+
+    .first_section .slider .owl-dot,
+    .first_section .slider .owl-dot:hover,
+    .first_section .slider .owl-dot.active
+    {
+        width: 12px;
+        height: 12px;
+    }
+
+    .first_section .slider .owl-dot + .owl-dot
+    {
+        margin-top: 0;
+        margin-left: 6px;
     }
 
 
