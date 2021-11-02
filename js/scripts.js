@@ -14,8 +14,8 @@ $(function () {
 	$('.first_section .slider').owlCarousel({
 		items: 1,
 		margin: 0,
-		nav: false,
-		dots: true,
+		nav: true,
+		dots: false,
 		loop: true,
 		smartSpeed: 500,
 		autoplay: true,
